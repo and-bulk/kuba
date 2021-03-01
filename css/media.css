@@ -1,0 +1,137 @@
+@media (max-width: 1075px) {
+	.about__dot--1{
+		left: 65px;
+    	top: 150px;
+	}
+	.about__dot--2{
+		left: 340px;
+		top: 188px;
+	}
+	.about__dot--3{
+	    right: 270px;
+	    top: 135px;
+	}
+	.about__dot--4{
+		right: 210px;
+		bottom: 28px;
+	}
+	.footer__item--company{
+		width: 140px;
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 840px) {
+	.about__box{
+		margin: auto;
+	}
+	.about__item{
+		margin-bottom: 0;
+		padding-top: 380px;
+		background-position: top;
+	}
+	.about__item:nth-child(even){
+		background-position: top;
+	}
+	.about__dot{
+		display: none;
+	}
+	.about__images-box{
+		padding-top: 0;
+	}
+	.footer__items{
+		flex-wrap: wrap;
+	}
+	.footer__item{
+		width: 50%;
+		padding-right: 20px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 700px) {
+	body{
+		font-size: 14px;
+	}
+	.title{
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.header__title{
+		font-size: 100px;
+	}
+	.header__text{
+		font-size: 20px;
+	}
+	.burger{
+		display: flex;
+	}
+	.menu__list{
+		display: none;
+		text-align: center;
+	}
+	.menu__list.active{
+		display: block;
+	}
+	.menu__list.active a{
+		color: #fff;
+		background: #ECB84C;
+		width: 300px;
+		border-radius: 20px;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	.reason{
+		padding-top: 40px;
+	}
+	.about{
+		padding: 40px 0;
+	}
+	.photo__slider .slick-prev{
+		left: 20px;
+	}
+	.photo__slider .slick-next{
+		right: 20px;
+	}
+}
+
+@media (max-width: 540px) {
+	.header__title{
+		font-size: 80px;
+	}
+	.header__text{
+		display: none;
+	}
+	.header__top-inner{
+		border-bottom: 2px solid #ECB84C;
+	}
+	.header__top{
+		padding: 10px;
+	}
+	.reason__statistics{
+		display: block;
+		padding-bottom: 0;
+	}
+	.reason__statistics-item{
+		margin-bottom: 40px;
+	}
+	.reason__statistics-num{
+		margin-top: 10px;
+	}
+	.about__box{
+		padding: 33px 30px;
+	}
+	.photo__slider .slick-arrow{
+		display: none;
+	}
+}
+
+@media (max-width: 470px) {
+	.footer__items{
+		display: block;
+	}
+	.footer__item{  
+		width: 100%;
+		padding-right: 0;
+	}
+}
